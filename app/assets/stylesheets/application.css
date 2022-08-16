@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 800px;
+}
