@@ -1,9 +1,17 @@
 <h2><%= @article.title %></h2>
 <p><%= @article.content %></p>
 
-<%= link_to "Edit task", article_path %>
-<%= link_to "Delete",
-  article_path(@article),
-  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
-%>
-<%= link_to "Back to index <", articles_path %>
+<button class="button-52" role="button">
+  <%= link_to "Edit task", article_path %>
+</button>
+
+<button class="button-53" role="button">
+  <%= link_to "Delete",
+    article_path(@article),
+    data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+  %>
+</button>
+
+<button class="button-54" role="button">
+  <%= link_to "Back to index <", articles_path %>
+</button>

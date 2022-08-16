@@ -14,7 +14,13 @@
 
   <body>
     <div class="navbar">
+      <div id="hidden">
       <%= image_tag('BoJack_Horseman_II.svg', draggable: "true", id: "drag1", style: 'height: 100px;') %>
+      </div>
+      <%= image_tag('BoJack_Horseman_II.svg', draggable: "true", id: "drag1", style: 'height: 100px;') %>
+      <button class="button-55" role="buttons">
+        <%= link_to "Create your own", new_article_path %>
+      </button>
     </div>
     <div class="container">
       <%= yield %>
